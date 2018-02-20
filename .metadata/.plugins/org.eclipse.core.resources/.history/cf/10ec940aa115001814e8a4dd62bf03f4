@@ -1,0 +1,26 @@
+package eg;
+
+public class example1 {
+
+	public static void main(String[] args) {
+		
+		System.out.println(fibonacci(0));
+
+	}
+
+public static int fibonacci(int input) {
+		
+		
+		int case1 = 1;
+		int case2 = 1;
+		int caseAdd;
+			caseAdd = case1 + case2;
+			case1 = case2;
+			case2 = caseAdd;
+			System.out.println(caseAdd);
+		if (input < 5) fibonacci (caseAdd - 1);
+		return caseAdd;
+		
+	}
+}
+

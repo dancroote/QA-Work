@@ -1,0 +1,27 @@
+package eg;
+
+public class example1 {
+
+	public static void main(String[] args) {
+		
+		System.out.println(fibonacci(0));
+
+	}
+
+public static int fibonacci(int input) {
+		
+		
+		int case1 = input;
+		int case2 = 1;
+		int caseAdd;
+			caseAdd = case1 + case2;
+			case1 = case2;
+			case2 = caseAdd;
+			System.out.println(caseAdd);
+		if (input < 4) fibonacci (input);
+		if (input == 0) return 0; 
+		else {return caseAdd;}
+		
+	}
+}
+

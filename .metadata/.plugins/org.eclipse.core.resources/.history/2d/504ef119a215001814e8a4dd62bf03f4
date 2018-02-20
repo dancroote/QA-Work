@@ -1,0 +1,29 @@
+package eg;
+
+public class example1 {
+
+	public static void main(String[] args) {
+		
+		System.out.println(fibonacci(0));
+
+	}
+
+public static int fibonacci(int input) {
+		
+		int increment = input;
+		int case1 = 1;
+		int case2 = 1;
+		int caseAdd = 0;
+		
+		while (caseAdd < 25) {
+			caseAdd = case1 + case2;
+			case1 = case2;
+			case2 = caseAdd;
+			increment += 1;
+			System.out.println(caseAdd);
+			fibonacci ( increment );
+		}
+		return caseAdd;
+	}
+}
+

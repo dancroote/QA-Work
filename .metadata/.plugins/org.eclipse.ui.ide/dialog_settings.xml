@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Users\Admin\eclipse-workspace\JAVA - OfflineExercises"/>
+	</list>
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\Admin\eclipse-workspace\example"/>
+			<item value="C:\Users\Admin\eclipse-workspace\eg"/>
+			<item value="C:\Users\Admin\Downloads\JAVA - OfflineExercises\JAVA - OfflineExercises"/>
+			<item value="C:\Users\Admin\eclipse-workspace\JAVA - OfflineExercises"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item value="578" key="DIALOG_X_ORIGIN"/>
+		<item value="284" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>
